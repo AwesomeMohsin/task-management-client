@@ -40,21 +40,14 @@ const Dashboard = () => {
 
                 <ul className="menu p-4 space-y-2">
 
-{/*                    
                                 <li>
-                                    <NavLink to='/dashboard/users' className="text-lg">
-                                        <FaUsers className="text-xl"></FaUsers>
-                                        All Users
-                                    </NavLink>
-                                </li> */}
-                                <li>
-                                    <NavLink to='/dashboard/add-test' className="text-lg">
+                                    <NavLink to='/dashboard/add-task' className="text-lg">
                                         <GrTest className="text-xl"></GrTest>
                                         Add a Task
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='/dashboard/tests' className="text-lg">
+                                    <NavLink to='/dashboard/tasks' className="text-lg">
                                         <GrTestDesktop className="text-xl"></GrTestDesktop>
                                         All Tasks
                                     </NavLink>

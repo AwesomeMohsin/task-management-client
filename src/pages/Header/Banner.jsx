@@ -1,6 +1,13 @@
+import { useNavigate } from "react-router-dom";
 
 
 const Banner = () => {
+
+    const navigate = useNavigate();
+
+    const handleExplore = () => {
+        navigate('/dashboard')
+    }
 
   
 
@@ -17,7 +24,7 @@ const Banner = () => {
                     
                     <p className="font-fontTitle text-xl md:text-3xl pt-6">Elevate Your Experience!</p>
                     <div>
-                    <a href="#brands"><button className="btn btn-outline text-white">View our Brands</button></a>
+                        <button onClick={handleExplore} className="btn btn-outline text-white">{`Lets's Explore`}</button>
                     </div>
                 </div>
             </div>
