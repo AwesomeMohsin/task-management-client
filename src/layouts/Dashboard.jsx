@@ -32,8 +32,8 @@ const Dashboard = () => {
             <div className="w-64 min-h-screen bg-teal-200">
 
                 <div className="py-10">
-                    <h4 className="text-2xl text-center">Awesome Diagnostic </h4>
-                    <h2 className="text-center text-xl">Center</h2>
+                    <h4 className="text-2xl text-center">TaskPilot </h4>
+                    
                     <div className="divider"></div>
 
                 </div>

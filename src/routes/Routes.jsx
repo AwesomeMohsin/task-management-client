@@ -8,8 +8,8 @@ import Login from "../pages/AccountServices/Login";
 import Register from "../pages/AccountServices/Register";
 import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../layouts/Dashboard";
-import AddTask from "../pages/Dashboard/AddTask";
-import Tasks from "../pages/Dashboard/Tasks/Tasks";
+import Tasks from "../pages/Dashboard/Tasks";
+
 
 
 const router = createBrowserRouter([
@@ -39,13 +39,9 @@ const router = createBrowserRouter([
     element: <PrivateRoute><Dashboard></Dashboard></PrivateRoute>,
     children: [
       {
-        path: 'add-task',
-        element: <AddTask></AddTask>
-    },
-    {
         path: 'tasks',
         element: <Tasks></Tasks>
-    },
+      }
     ]
   }
 ]);

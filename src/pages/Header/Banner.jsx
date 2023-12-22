@@ -12,7 +12,7 @@ const Banner = () => {
   
 
     return (
-        <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://phono-demo.myshopify.com/cdn/shop/files/phono-slider-3.jpg)' }}>
+        <div className="hero min-h-screen" style={{ backgroundImage: 'url(https://startinfinity.s3.us-east-2.amazonaws.com/production/blog/post/5/main/1SvzKctRCi8bwB0QPdOZkBP0pRhsOqZpl0wjs6y0.png)' }}>
            
             <div className="hero-overlay bg-opacity-20 "></div>
             <div className="hero-content text-center mr-3.5 mx-auto text-white">

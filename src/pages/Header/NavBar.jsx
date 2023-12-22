@@ -26,8 +26,11 @@ const NavBar = () => {
 
     const navItems = <>
         <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/addproduct' className="ml-1 btn btn-sm btn-outline text-[#808080]"><button>Add Product</button></NavLink></li>
-        <li><NavLink to='/cart' className="ml-1 btn btn-sm btn-outline text-[#808080]"><button>My Cart</button></NavLink></li>
+        
+        <li><NavLink to='/dashboard'>Dashboard</NavLink></li>
+        
+        <li><NavLink to='/contact'>Contact</NavLink></li>
+        
         
 
     </>
